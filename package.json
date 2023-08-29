@@ -6,7 +6,9 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "lint-seat": "eslint src --ext .ts,.tsx",
+    "lint-seat-fix": "eslint src --ext .ts,.tsx --fix"
   },
   "dependencies": {
     "@types/node": "20.5.6",
