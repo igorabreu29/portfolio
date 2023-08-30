@@ -6,7 +6,7 @@ import { Contacts } from '@/components/Sections/Contacts'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col gap-4 px-20">
+    <main className="flex min-h-screen flex-col gap-4 px-4 xl:px-20">
       <Hero />
 
       {/* About me section */}

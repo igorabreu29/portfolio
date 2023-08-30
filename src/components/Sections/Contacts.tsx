@@ -1,15 +1,15 @@
 export function Contacts() {
   return (
-    <section id="contacts">
-      <div className="relative w-full after:absolute after:bottom-[-0.75rem] after:h-[0.125rem] after:w-full after:bg-slate-50">
+    <section id="contacts" className="flex flex-col gap-4">
+      <div className="w-full border-b-2">
         <h2 className="text-4xl font-semibold leading-normal tracking-wide">
           Contatos
         </h2>
       </div>
 
-      <div className="flex min-h-[90vh] items-center justify-center">
-        <section className="flex h-[65vh] w-full items-center justify-center rounded">
-          <form className="flex h-full w-[28rem] flex-col items-start gap-2 rounded bg-blue-500 p-4">
+      <div className="flex items-center justify-center lg:min-h-[90vh]">
+        <section className="flex w-full flex-col items-center justify-center gap-2 rounded lg:min-h-[65vh] lg:flex-row lg:gap-0">
+          <form className="flex h-full w-[18rem] flex-col items-start gap-2 rounded bg-blue-500 p-4 sm:w-[24rem] lg:w-[28rem]">
             <h3 className="text-2xl">Se contate comigo!</h3>
 
             <div className="flex w-full flex-col items-start justify-center gap-1">
@@ -43,9 +43,11 @@ export function Contacts() {
             </div>
           </form>
 
-          <div className="flex h-full w-[18vw] flex-col items-center justify-center gap-8 rounded bg-zinc-950">
+          <div className="flex w-full flex-col items-center justify-center gap-8 rounded bg-zinc-950 p-4 lg:h-[68vh] lg:w-auto">
             <div className="flex flex-col items-start justify-center gap-1">
-              <h3 className="text-xl text-emerald-500">E-mail para contato</h3>
+              <h3 className="text-lg text-emerald-500 lg:text-xl">
+                E-mail para contato
+              </h3>
               <ul className="flex w-full justify-center">
                 <li className="ml-4 list-disc text-sm">
                   igor29nahan@gmail.com
@@ -54,14 +56,18 @@ export function Contacts() {
             </div>
 
             <div className="flex flex-col items-start justify-center gap-1">
-              <h3 className="text-xl text-emerald-500">Número para contato</h3>
+              <h3 className="text-lg text-emerald-500 lg:text-xl">
+                Número para contato
+              </h3>
               <ul className="flex w-full justify-center">
                 <li className="ml-4 list-disc text-sm">(91) 999671491</li>
               </ul>
             </div>
 
             <div className="flex flex-col items-start justify-center gap-1">
-              <h3 className="text-xl text-emerald-500">Redes Sociais</h3>
+              <h3 className="text-lg text-emerald-500 lg:text-xl">
+                Redes Sociais
+              </h3>
               <ul className="flex w-full justify-center">
                 <li className="ml-4 list-disc text-sm">
                   igor29nahan@gmail.com

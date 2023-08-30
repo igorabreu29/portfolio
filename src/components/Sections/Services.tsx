@@ -2,48 +2,48 @@ import { Laptop, Database, Braces } from 'lucide-react'
 
 export function Services() {
   return (
-    <section id="services">
-      <div className="relative w-full after:absolute after:bottom-[-0.75rem] after:h-[0.125rem] after:w-full after:bg-slate-50">
+    <section id="services" className="flex flex-col gap-8">
+      <div className="w-full border-b-2">
         <h2 className="text-4xl font-semibold leading-normal tracking-wide">
           Serviços
         </h2>
       </div>
 
-      <div className="flex h-[60vh] items-center justify-center gap-8">
-        <div className="flex h-[12rem] flex-col items-start justify-center gap-2 rounded bg-blue-500 p-3 transition-colors hover:bg-blue-400">
+      <div className="flex flex-col items-center justify-center gap-4 xl:h-[60vh] xl:flex-row xl:gap-8">
+        <div className="flex flex-col items-start justify-center gap-2 rounded bg-blue-500 p-2 transition-colors hover:bg-blue-400 md:h-[12rem] md:p-3">
           <span>
             <Laptop size={25} />
           </span>
-          <span className="w-full text-center text-xl font-medium">
+          <span className="w-full text-center text-lg font-medium md:text-xl">
             Web Developer
           </span>
-          <p className="w-[20rem] text-center">
+          <p className="w-[16rem] text-center text-xs sm:w-[20rem] sm:text-sm md:text-base">
             Desenvolvo sites responsivos com React.js, Next.js e TypeScript.
             Utilizando ferramentas CSS que facilitam o desenvolvimento.
           </p>
         </div>
 
-        <div className="mt-20 flex h-[12rem] flex-col items-start justify-center gap-2 rounded bg-blue-500 p-3 transition-colors hover:bg-blue-400 ">
+        <div className="flex flex-col items-start justify-center gap-2 rounded bg-blue-500 p-2 transition-colors hover:bg-blue-400 md:h-[12rem] md:p-3">
           <span>
             <Database size={25} />
           </span>
           <span className="w-full text-center text-xl font-medium">
             System Developer
           </span>
-          <p className="w-[20rem] text-center">
+          <p className="w-[16rem] text-center text-xs sm:w-[20rem] sm:text-sm md:text-base">
             Desenvolvo APi’s REST completas com Node.js junto com um conjunto de
             bibliotecas do seu ecossistema.
           </p>
         </div>
 
-        <div className="mt-12 flex h-[12rem] flex-col items-start justify-center gap-2 rounded bg-blue-500 p-3 transition-colors hover:bg-blue-400">
+        <div className="flex flex-col items-start justify-center gap-2 rounded bg-blue-500 p-2 transition-colors hover:bg-blue-400 md:h-[12rem] md:p-3">
           <span>
             <Braces size={25} />
           </span>
           <span className="w-full text-center text-xl font-medium">
             FullStack Developer
           </span>
-          <p className="w-[20rem] text-center">
+          <p className="w-[16rem] text-center text-xs sm:w-[20rem] sm:text-sm md:text-base">
             Desenvolvo sites e sistemas completos feitos com JavaScript. Através
             dessa Stack posso criar qualquer tipo de coisa.
           </p>
