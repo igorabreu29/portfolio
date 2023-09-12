@@ -15,15 +15,15 @@ export function Hero() {
   return (
     <section
       id="hero"
-      className="flex h-[90vh] items-center justify-center overflow-x-hidden sm:grid sm:grid-cols-2"
+      className="flex h-[70vh] items-center overflow-x-hidden sm:grid sm:grid-cols-2"
     >
       <section className="flex flex-col items-center justify-center gap-14">
-        <h1 className="relative w-full text-center text-3xl font-bold before:absolute before:left-28 before:top-[-1.75rem] before:h-[0.20rem] before:w-36 before:bg-zinc-500 after:absolute after:bottom-[-1.75rem] after:right-28 after:h-[0.20rem] after:w-36 after:bg-zinc-500 lg:text-5xl">
+        <h1 className="relative w-full text-center text-3xl font-bold before:absolute before:left-48 before:top-[-1.75rem] before:h-[0.20rem] before:w-36 before:bg-zinc-500 after:absolute after:bottom-[-1.75rem] after:right-48 after:h-[0.20rem] after:w-36 after:bg-zinc-500 lg:text-5xl">
           Igor Abreu
         </h1>
 
         <div className="flex flex-col gap-4">
-          <p className="text-center text-sm md:w-[20rem] lg:w-[24rem] lg:text-base">
+          <p className="text-center text-sm md:w-[20rem] lg:w-[24rem] lg:text-base xl:w-[40rem] xl:text-lg">
             Olá, meu nome é Igor. Sou um{' '}
             <span className="text-emerald-500">desenvolvedor FullStack</span> e
             desenvolvo minhas aplicações com as tecnologias mais atuais do
@@ -36,7 +36,7 @@ export function Hero() {
         </div>
       </section>
 
-      <section className="relative flex items-center justify-center gap-4 md:justify-end">
+      <section className="relative flex items-center justify-end gap-4 lg:justify-center">
         <Image
           src={Sky}
           alt="sky of ifpa"

@@ -4,12 +4,12 @@ export function Services() {
   return (
     <section id="services" className="flex flex-col gap-8">
       <div className="w-full border-b-2">
-        <h2 className="text-4xl font-semibold leading-normal tracking-wide">
+        <h2 className="text-2xl font-semibold leading-normal tracking-wide md:text-4xl">
           Serviços
         </h2>
       </div>
 
-      <div className="flex flex-col items-center justify-center gap-4 xl:h-[60vh] xl:flex-row xl:gap-8">
+      <div className="flex flex-col items-center justify-center gap-4 xl:h-[40vh] xl:flex-row xl:gap-8">
         <div className="flex flex-col items-start justify-center gap-2 rounded bg-blue-500 p-2 transition-colors hover:bg-blue-400 md:h-[12rem] md:p-3">
           <span>
             <Laptop size={25} />
